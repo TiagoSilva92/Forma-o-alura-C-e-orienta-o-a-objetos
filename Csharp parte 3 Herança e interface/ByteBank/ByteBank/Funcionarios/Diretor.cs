@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ByteBank.Funcionarios
 {
-    public class Funcionario
+    public class Diretor
     {
         public string Nome { get; set; }
         public string CPF { get; set; }
@@ -12,7 +12,7 @@ namespace ByteBank.Funcionarios
 
         public double GETBonificacao()
         {
-            return Salario * 0.10;
+            return Salario;
         }
     }
 }
